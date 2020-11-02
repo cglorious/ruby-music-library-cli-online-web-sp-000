@@ -11,9 +11,7 @@ class MusicImporter
   end
 
   def files
-    array = Dir["./spec/fixtures/mp3s/**/*.mp3"].map {|f| File.basename(f)}
-
-    binding.pry
+    Dir["./spec/fixtures/mp3s/**/*.mp3"].map {|f| File.basename(f)}
   end
 
   def self.import
