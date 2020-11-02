@@ -67,7 +67,7 @@ class MusicLibraryController
 
     if #Artist.name == input the song's artist.name equals the input
       == input
-    
+
   end
 
 end
